@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, rgba(16,38,45,1) 0%, rgba(17,59,63,1) 35%, rgba(16,117,94,1) 100%);
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Lustria", serif;
+}
+h2{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+h3{
+    color: #4CBC08;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+h4{
+    color: #B4BE96;
+    text-align: center;
+    font-size: .7rem;
+}
+p{
+    text-align: center;
+    color: #FAFF00;
+    font-weight: 200;
+}
+nav{
+    display: flex;
+    margin: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav p {
+    font-family: "Lato", sans-serif;
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header{
+    margin: 60px 25px;
+}
+header img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.verde{
+    color: #4CBC08;
+}
+.ajuste-de-imagen{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+section{
+    margin: 50px 40px 0 40px;
+    
+}
+section img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.whats-app-logo{
+    width: 30px;
+}
+.iconos{
+    display: flex;
+    width: 300px;
+    margin: 20px auto;
+}
+.iconos img{
+    width: 30px;  
+}
+.conectar{
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.crecer-tu-negocio---section{
+    padding-top: 15px;
+    color: #47533B;
+    background-color: #C8DFBC;
+}
+.crecer-tu-negocio---section h2{
+    color: #47533B;
+}
+li{
+    margin: 20px;
+    color: #BEDBBD;
+    line-height: 20px;
+}
+.unete-section--container{
+    height: 32vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.mision-vision-objetivo{
+    background-color: rgba(0,0,0, 0.3);
+    padding: 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    padding-top: 20px;
+    background-color: #113B3F;
+    height: 20vh;
+    margin: 0 auto;
+}
+footer p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: .8rem;
+}
+.footer-links--container{
+    margin: 40px 0 0 5px;
+}
+.footer-links{
+    font-size: .6rem;
+    display: block;
+    padding: 5px;
+}
+@media only screen and (min-width: 800px) {
+    h1{
+        font-size: 1.6rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    section img{
+        width: 400px;
+    }
+    
+    .footer-links{
+        font-size: .9rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+    li{
+        font-size: 1.4rem;
+    }
+    header img{
+        margin-top: 80px;
+        width: 400px;
+    }
+    section{
+        width: 80%;
+        align-items: center;
+        margin: 190px auto;
+    }
+    .flex{
+        display: flex;
+    }
+    section img{
+        width: 600px;
+    }
+    .one {
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .two {
+        flex-direction: row;
+    }
+    section.one img, section.two img {
+        margin: 0;
+    }
+    .one p, .two p {
+        flex: 1;
+        text-align: center;
+        margin: 0 20px;
+    }
+    .mision-vision-objetivo{
+        padding: 80px;
+        margin-bottom: 70px;
+    }
+    .footer-links{
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+}
