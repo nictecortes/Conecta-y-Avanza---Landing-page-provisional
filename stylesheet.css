@@ -80,11 +80,13 @@ section img{
 }
 .whats-app-logo{
     width: 30px;
+    margin-top: 40px;
 }
 .iconos{
     display: flex;
     width: 300px;
     margin: 20px auto;
+    justify-content: space-between;
 }
 .iconos img{
     width: 30px;  
@@ -191,6 +193,13 @@ footer p{
     }
     section img{
         width: 600px;
+    }
+    .iconos img{
+        margin: 30px;
+        width: 40px;
+    }
+    .whats-app-logo{
+        width: 45px;
     }
     .one {
         justify-content: space-around;
